@@ -1,0 +1,12 @@
+def main(a,b):
+    """
+    Given two integers a, b,  check the following statement "Each of the numbers 'a' and 'b' is even".
+    Args:
+        a(int): parameter a
+        b(int): parameter b
+    Returns:
+        bool: answer
+    """
+    return bool(a%2==0 and a%2==0)
+print(main(3,6))
+print(main(6,4))
